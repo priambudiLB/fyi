@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'fyi', // Usually your repo name.
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'id'],
+    locales: ['en', 'id', 'jp'],
   },
   themeConfig: {
     defaultMode: 'dark',
@@ -48,6 +48,16 @@ module.exports = {
         {
           to: '/showcase',
           label: '.showcase()',
+          position: 'left'
+        },
+        {
+          to: '/wmmt',
+          label: '.wmmt()',
+          position: 'left'
+        },
+        {
+          to: '/initiald',
+          label: '.initial(D)',
           position: 'left'
         },
         {
